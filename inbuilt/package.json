@@ -1,0 +1,15 @@
+{
+  "name": "inbuilt",
+  "version": "1.0.0",
+  "description": "this is node inbuilt",
+  "main": "http.js",
+  "scripts": {
+    "start":"node staticApi.js",
+    "dev":"nodemon staticApi.js"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Harish",
+  "license": "ISC"
+}
