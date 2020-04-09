@@ -1,0 +1,24 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Json data display using Json file, API, MondoDB connection, Routing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harish07hs/NodeJS.git"
+  },
+  "author": "Harish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harish07hs/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Harish07hs/NodeJS#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
