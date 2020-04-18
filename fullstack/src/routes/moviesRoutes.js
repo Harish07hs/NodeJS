@@ -6,7 +6,7 @@ var url = "mongodb://localhost:27017";
 
 function router(menu){
     moviesRouter.route('/')
-    .get((req,res) => {
+    .get((req,res) => {     
         mongodb.connect(url,function(err,dc){
             if(err){
                 res.status(501).send('Error While Connecting')
